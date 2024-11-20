@@ -13,6 +13,8 @@
 		3D3EE7D529C6C5E000EA8E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3EE7D329C6C5E000EA8E9A /* Main.storyboard */; };
 		3D3EE7D729C6C5E100EA8E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3EE7D629C6C5E100EA8E9A /* Assets.xcassets */; };
 		3D3EE7DA29C6C5E100EA8E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3EE7D829C6C5E100EA8E9A /* LaunchScreen.storyboard */; };
+		3D3EE7E129C7527D00EA8E9A /* SetupMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3EE7E029C7527D00EA8E9A /* SetupMethods.swift */; };
+		3D3EE7E329C82BF500EA8E9A /* ButtonHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3EE7E229C82BF500EA8E9A /* ButtonHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		3D3EE7D429C6C5E000EA8E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D3EE7D629C6C5E100EA8E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3EE7D929C6C5E100EA8E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D3EE7E029C7527D00EA8E9A /* SetupMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupMethods.swift; sourceTree = "<group>"; };
+		3D3EE7E229C82BF500EA8E9A /* ButtonHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				3D3EE7CD29C6C5E000EA8E9A /* AppDelegate.swift */,
 				3D3EE7CF29C6C5E000EA8E9A /* art.scnassets */,
 				3D3EE7D129C6C5E000EA8E9A /* ViewController.swift */,
+				3D3EE7E029C7527D00EA8E9A /* SetupMethods.swift */,
+				3D3EE7E229C82BF500EA8E9A /* ButtonHelpers.swift */,
 				3D3EE7D329C6C5E000EA8E9A /* Main.storyboard */,
 				3D3EE7D629C6C5E100EA8E9A /* Assets.xcassets */,
 				3D3EE7D829C6C5E100EA8E9A /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3EE7E129C7527D00EA8E9A /* SetupMethods.swift in Sources */,
+				3D3EE7E329C82BF500EA8E9A /* ButtonHelpers.swift in Sources */,
 				3D3EE7D229C6C5E000EA8E9A /* ViewController.swift in Sources */,
 				3D3EE7CE29C6C5E000EA8E9A /* AppDelegate.swift in Sources */,
 			);
@@ -295,6 +303,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +334,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
